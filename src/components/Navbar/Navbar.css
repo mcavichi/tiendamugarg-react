@@ -1,0 +1,9 @@
+.boton {
+    color: blue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
