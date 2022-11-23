@@ -24,17 +24,17 @@ const Navbar = (props) => {
 
     return (
         <nav className='navbar'>
-            <div className='logo'>
+            <div>
                 <Logo />
             </div>
-            <div className='buttons'>
+            <div>
                 {/* <h1 style={{color: props.colorTitle}}>MyApp</h1> */}
                 <Button colorText='blue' func={HandleOnClick}>Home</Button>
                 <Button colorText='blue' func={HandleOnClick2}>About</Button>
                 <Button colorText='blue' func={HandleOnClick3}>Contact</Button>
                 <Button colorText='blue' func={HandleOnClick4}>Login</Button>
             </div>
-            <div className='cart'>
+            <div>
                 <CartWidget />
             </div>
         </nav>

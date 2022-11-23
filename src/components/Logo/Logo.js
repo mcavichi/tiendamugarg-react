@@ -1,8 +1,10 @@
+import './Logo.css'
+
 const Logo = () => {
     return (
-        <button>
-            <img src={'./images/logo.png'} alt="logo"/>
-        </button>
+        <div>
+            <img className="logo" src={'./images/logo.png'} alt="logo"/>
+        </div>
     )
 }
 

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <Navbar colorTitle='red'/>
-        <ItemListContainer className='background' greeting='Bienvenidos!'/>
+        <ItemListContainer className='background' greeting='BIENVENIDOS!😉'/>
     </div>
   );
 }
