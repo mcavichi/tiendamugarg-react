@@ -5,3 +5,13 @@
     align-items: center;
 }
 
+.navbar-category {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: small; 
+}

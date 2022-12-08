@@ -2,6 +2,7 @@ import './Navbar.css'
 import Button from '../Button/Button';
 import CartWidget from '../CartWidget/CartWidget';
 import Logo from '../Logo/Logo';
+import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     
@@ -28,11 +29,15 @@ const Navbar = (props) => {
                 <Logo />
             </div>
             <div>
-                {/* <h1 style={{color: props.colorTitle}}>MyApp</h1> */}
                 <Button colorText='blue' func={HandleOnClick}>Home</Button>
                 <Button colorText='blue' func={HandleOnClick2}>About</Button>
                 <Button colorText='blue' func={HandleOnClick3}>Contact</Button>
                 <Button colorText='blue' func={HandleOnClick4}>Login</Button>
+            <div>
+                <Link to='/' className='navbar-category'> Ver todo </Link>
+                <Link to='category/rickandmorty' className='navbar-category'> Rick And Morty </Link>
+                <Link to='category/simpsons' className='navbar-category'> Los Simpsons </Link>
+            </div>
             </div>
             <div>
                 <CartWidget />
