@@ -1,8 +1,8 @@
 import './ItemListContainer.css'
 import { useState, useEffect } from "react"
-import { getProducts, getProductByCategory} from '../../asyncMock'
+import { getProducts, getProductByCategory} from '../../asyncMock' 
 import ItemList from "../ItemList/ItemList"
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 
 const ItemListContainer = ({ greeting }) => {
     const [products, setProducts] = useState([])
@@ -30,10 +30,16 @@ const ItemListContainer = ({ greeting }) => {
     }, [categoryId])
 
     return (
-        <div>
+        <div>            
             <h1>{greeting}</h1>
+            <div>
+                <button className='button'><Link to='/' className='navbar-category'> Ver todo </Link></button>
+                <button className='button'><Link to='/category/rickandmorty' className='navbar-category'> Rick And Morty </Link></button>
+                <button className='button'><Link to='/category/simpsons' className='navbar-category'> The Simpsons </Link></button>
+                <button className='button'><Link to='/category/bttf' className='navbar-category'> Back To The Future </Link></button>
+            </div>
             <div className='item-list'>
-            <ItemList products={products} />
+                <ItemList products={products} />
             </div>
         </div>
     )
