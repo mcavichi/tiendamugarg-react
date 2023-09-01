@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tiendamugarg-react/static/css/main.f7d16d8e.css",
+    "main.js": "/tiendamugarg-react/static/js/main.00650c04.js",
+    "static/js/787.7e19477c.chunk.js": "/tiendamugarg-react/static/js/787.7e19477c.chunk.js",
+    "index.html": "/tiendamugarg-react/index.html",
+    "main.f7d16d8e.css.map": "/tiendamugarg-react/static/css/main.f7d16d8e.css.map",
+    "main.00650c04.js.map": "/tiendamugarg-react/static/js/main.00650c04.js.map",
+    "787.7e19477c.chunk.js.map": "/tiendamugarg-react/static/js/787.7e19477c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7d16d8e.css",
+    "static/js/main.00650c04.js"
+  ]
+}
